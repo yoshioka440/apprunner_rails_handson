@@ -1,5 +1,5 @@
 version: 1.0
-runtime: python3 
+runtime: ruby3.1
 build:
   commands:
     build:
