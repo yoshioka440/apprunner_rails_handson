@@ -7,3 +7,5 @@ build:
 run: 
   runtime-version: 3.1.4
   command: bundle exec rails s --host 0.0.0.0
+  network:
+    port: 3000
