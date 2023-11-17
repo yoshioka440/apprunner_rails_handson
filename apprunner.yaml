@@ -3,7 +3,7 @@ runtime: ruby31
 build:
   commands:
     build:
-      - sudo yum install libyaml-devel
+      - sudo yum install -y libyaml-devel 
 run: 
   runtime-version: 3.1.4
   command: bundle exec rails s --host 0.0.0.0
