@@ -5,8 +5,8 @@ build:
     build:
       - sudo yum install -y libyaml-devel postgresql-devel
       - bundle install 
-      # - bundle exec rails db:migrate
-      - bundle exec rail db:migrate
+      - bundle exec rails db:migrate
+      # - bundle exec rail db:migrate
       - bundle exec rails assets:precompile
   env:
     - name: RAILS_ENV
