@@ -17,6 +17,8 @@ build:
       value: enabled
     - name: RAILS_MASTER_KEY
       value: f7b4489992e3ecc9f8f009a892942389
+    - name: SECRET_KEY_BASE
+      value: 310e97425d11656100d39c8dce1c04df
 run: 
   runtime-version: 3.1.4
   command: bundle exec rails server --binding=0.0.0.0
@@ -33,3 +35,5 @@ run:
       value: enabled
     - name: RAILS_MASTER_KEY
       value: f7b4489992e3ecc9f8f009a892942389
+    - name: SECRET_KEY_BASE
+      value: 310e97425d11656100d39c8dce1c04df
