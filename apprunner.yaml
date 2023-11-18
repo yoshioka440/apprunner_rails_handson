@@ -15,6 +15,8 @@ build:
       value: enabled
     - name: RAILS_SERVE_STATIC_FILES
       value: enabled
+    - name: RAILS_MASTER_KEY
+      value: f7b4489992e3ecc9f8f009a892942389
 run: 
   runtime-version: 3.1.4
   command: bundle exec rails server --binding=0.0.0.0
@@ -29,3 +31,5 @@ run:
       value: enabled
     - name: RAILS_SERVE_STATIC_FILES
       value: enabled
+    - name: RAILS_MASTER_KEY
+      value: f7b4489992e3ecc9f8f009a892942389
