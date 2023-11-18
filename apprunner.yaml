@@ -3,7 +3,7 @@ runtime: ruby31
 build:
   commands:
     build:
-      - sudo yum install -y libyaml-devel
+      - sudo yum install -y libyaml-devel postgresql-devel
       - bundle install 
       - rails asset:percompile
   env:
